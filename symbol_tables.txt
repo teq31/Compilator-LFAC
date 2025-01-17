@@ -1,0 +1,83 @@
+Scope: global
+  Classes:
+    Point
+    LFAC
+  Variables:
+    int x = 345
+    float z
+    bool Bool = false
+  Functions:
+    int get()
+    bool isNull(string text)
+    float average()
+    string ceva(bool k)
+    int foo(int x, float y, bool ok)
+    main ()
+
+  Scope: Point
+    Variables:
+      int x
+      int y
+    Functions:
+      int getter(int z, int w)
+
+    Scope: getter
+
+  Scope: LFAC
+    Variables:
+      bool z
+      char y
+    Functions:
+      float getter()
+
+    Scope: getter
+      Variables:
+        int media = 9
+
+      Scope: block
+        Variables:
+          int a
+
+        Scope: block
+          Variables:
+            int b
+
+  Scope: get
+    Variables:
+      bool b = true
+
+  Scope: isNull
+
+  Scope: average
+
+  Scope: ceva
+
+  Scope: foo
+    Variables:
+      int z = 10
+      char character
+
+    Scope: block
+      Variables:
+        int a
+        int b
+
+  Scope: main
+    Variables:
+      const int a = 3
+      float b = 3.700000
+      int y = 4
+      int i
+      string s = "Hello world"
+      int arr[0]
+      int arr[1] = 45
+      int arr[2] = 2
+
+    Scope: block
+
+    Scope: block
+
+      Scope: block
+        Variables:
+          int verif
+

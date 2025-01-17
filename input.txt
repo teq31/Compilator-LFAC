@@ -1,0 +1,94 @@
+begin_class
+    class Point{
+        int x;
+        int y;
+        int getter(int z, int w) { }
+    }; 
+
+    class LFAC{
+        bool z;
+        char y;
+        float getter() {
+            int media;
+            media=9;
+            if( y < x ){
+                int a;
+                if( y!= 0)
+                 {  int b;
+                    y = x;}
+            }
+        }
+    }; 
+end_class
+
+begin_global
+    int x;
+    float z;
+    bool Bool;
+end_global
+
+begin_functions
+    int get() {
+      bool b;
+      b=true;
+    }
+    bool isNull(string text) {
+
+    }
+    float average(){
+
+    }
+    string ceva(bool k){
+        
+    }
+    int foo(int x,float y, bool ok) {
+        int z;
+        z = 10;
+    
+        char character;
+        if( x < y ){
+           int a;
+        }else {
+            int b;
+        }
+    }
+end_functions
+
+
+begin_main
+    const int a = 3;
+    float b;
+    int y;
+    int i;
+    y=4;
+    x =(4+5*2);
+    Print(x);
+    Bool = true;
+    foo (y, b, Bool);
+    string s;
+    s="Hello world";
+    Print(s);
+    Print((10/2)+5*2);
+    Print(y>5 && Bool);
+    TypeOf ( a + 101 );
+    TypeOf ( Bool && true );
+
+    if( y < 2 ){
+        Bool = true;
+    }
+    else {
+        Bool = false;
+    }
+
+    for ( i = 1 ; i <= 10 ; i+ ) {
+        while( Bool ){
+            int verif;
+        }
+     }
+
+    int arr[3] = {1, 2, 3};
+    arr[1] = 45;
+    arr[2] = (10/5);
+    b = 3.7;
+    x=345;
+end_main
